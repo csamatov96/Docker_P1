@@ -6,9 +6,6 @@ def hello(): #
 @app.route("/home") #
 def home(): #
     return "Hello World again!" #
-@app.route("/user") #
-def user(): #
-    return "Hello World, Hello!" #
 
 if __name__ == "__main__": #
     app.run(host="0.0.0.0", port=int("5000"), debug=True) #
