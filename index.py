@@ -4,10 +4,10 @@ app = Flask(__name__) #
 def hello(): #
     return "Hello World!" #
 @app.route("/home") #
-def hello(): #
+def home(): #
     return "Hello World again!" #
 @app.route("/user") #
-def hello(): #
+def user(): #
     return "Hello World, Hello!" #
 
 if __name__ == "__main__": #
