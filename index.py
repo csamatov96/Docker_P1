@@ -5,7 +5,7 @@ def hello():
     return "Hello World!"
 
 @app.route("/home")
-def hello():
+def home():
     return "Bye World!"
 
 
